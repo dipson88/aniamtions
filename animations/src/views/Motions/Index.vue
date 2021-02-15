@@ -33,12 +33,18 @@
     <input v-model.number="n" step="10" type="number" />
     <button @click="toggle">Toggle</button>
     <br/>
+    <MotionsBall />
   </div>
 </template>
 
 <script>
+import MotionsBall from './MotionsBall'
+
 export default {
   name: 'MotionTest',
+  components: {
+    MotionsBall
+  },
   // props: {
   //   value: {
   //     type: Number,
