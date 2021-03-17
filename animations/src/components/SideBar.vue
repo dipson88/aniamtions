@@ -38,11 +38,11 @@ export default {
     }
   },
   computed: {
-    iconComponent() {
+    iconComponent () {
       return this.isOpen ? ArrowBackIcon : ListIcon
     },
     sideBarClassName () {
-      return !this.isOpen ? 'side-bar--closed' : '' 
+      return !this.isOpen ? 'side-bar--closed' : ''
     }
   },
   methods: {

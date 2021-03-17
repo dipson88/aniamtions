@@ -17,7 +17,7 @@
 
 <script>
 import SideBar from '@/components/SideBar'
-import  { routerHelper } from '@/utils'
+import { routerHelper } from '@/utils'
 
 const sideBarIds = {
   cssAnimations: 1,

@@ -23,8 +23,8 @@ export default {
   data () {
     return {
       isBallSelected: false,
-      curCoordinates: {x: 0, y: 0},
-      startCoordinates: {x: 0, y: 0},
+      curCoordinates: { x: 0, y: 0 },
+      startCoordinates: { x: 0, y: 0 },
       config: {
         stiffness: 180,
         damping: 12,
@@ -52,24 +52,24 @@ export default {
     }
   },
   computed: {
-     defautCoordinates () {
-       return this.getCoords(this.$refs.ball)
-     } 
+    defautCoordinates () {
+      return this.getCoords(this.$refs.ball)
+    }
   },
   methods: {
     onMouseDown (event) {
       this.isBallSelected = true
     },
     mouseMove (event) {
-      this.curCoordinates.x =  event.x - this.defautCoordinates.x
+      this.curCoordinates.x = event.x - this.defautCoordinates.x
       this.curCoordinates.y = event.y - this.defautCoordinates.y
     },
     onMouseUp (event) {
       this.curCoordinates.y = 0
       this.isBallSelected = false
     },
-    getCoords(elem) {
-      var box = elem.getBoundingClientRect();
+    getCoords (elem) {
+      var box = elem.getBoundingClientRect()
 
       return {
         y: box.top + pageYOffset,

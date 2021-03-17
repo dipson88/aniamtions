@@ -18,13 +18,9 @@
 
 <script>
 import { data, routerHelper } from '@/utils'
-import ArrowBackIcon from '@/components/icons/ArrowBackIcon'
 
 export default {
   name: 'NewsSingle',
-  components: {
-    ArrowBackIcon
-  },
   props: {
     newsId: {
       type: [Number, String],
@@ -69,6 +65,10 @@ export default {
     max-height: 500px;
     max-width: 900px;
     align-self: center;
+  }
+
+  &__s {
+
   }
 }
 </style>

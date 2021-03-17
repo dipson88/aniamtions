@@ -23,7 +23,7 @@
         />
       </div>
       <transition name="matches__list">
-        <MatchesList  
+        <MatchesList
           v-if="match.show"
           :matches="match.data"
           class="matches__list"
@@ -50,19 +50,19 @@ export default {
       matches: [
         {
           id: 1,
-          title: "Europe",
+          title: 'Europe',
           data: data.matchesData.filter(item => item.matchType === enums.MatchesTypes.Europe),
           show: true
         },
         {
           id: 2,
-          title: "England",
+          title: 'England',
           data: data.matchesData.filter(item => item.matchType === enums.MatchesTypes.England),
           show: true
         },
         {
           id: 3,
-          title: "Belarus",
+          title: 'Belarus',
           data: data.matchesData.filter(item => item.matchType === enums.MatchesTypes.Belarus),
           show: true
         }
