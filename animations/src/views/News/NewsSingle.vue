@@ -54,7 +54,7 @@ export default {
   flex-direction: column;
 
   &__info {
-    color: #9B9B9C;
+    color: #9b9b9c;
     font-size: 13px;
     margin: 10px 0 0 0;
   }
@@ -65,10 +65,6 @@ export default {
     max-height: 500px;
     max-width: 900px;
     align-self: center;
-  }
-
-  &__s {
-
   }
 }
 </style>

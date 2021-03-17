@@ -78,7 +78,7 @@ export default {
 
     &-enter-active,
     &-leave-active {
-      transition: all .3s ease;
+      transition: all 0.3s ease;
     }
 
     &-enter,

@@ -55,9 +55,9 @@ export default {
 
 <style lang="scss">
 .side-bar {
-  $selected-background-color: lighten(#0747A6, 10%);
+  $selected-background-color: lighten(#0747a6, 10%);
 
-  background-color: #0747A6;
+  background-color: #0747a6;
   height: 100%;
   min-height: 100vh;
   width: 200px;
@@ -86,7 +86,7 @@ export default {
 
   &__button,
   &__item {
-    color: #FFFFFF;
+    color: #fff;
     font-weight: 600;
     font-size: 16px;
 

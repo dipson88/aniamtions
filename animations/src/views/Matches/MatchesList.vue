@@ -32,7 +32,7 @@ export default {
   list-style-type: none;
 
   &__item {
-    border-top: 1px solid #DADCE0;
+    border-top: 1px solid #dadce0;
   }
 }
 </style>
