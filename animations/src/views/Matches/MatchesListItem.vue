@@ -62,9 +62,9 @@ export default {
     },
     statusName () {
       const names = {
-        [enums.MatchStatus.Live]: "live",
-        [enums.MatchStatus.Pending]: "pending",
-        [enums.MatchStatus.Finished]: "finished"
+        [enums.MatchStatus.Live]: 'live',
+        [enums.MatchStatus.Pending]: 'pending',
+        [enums.MatchStatus.Finished]: 'finished'
       }
 
       return names[this.status]

@@ -55,41 +55,41 @@
 </template>
 
 <script>
-import TransitionVueGroup from "./TransitionVueGroup";
+import TransitionVueGroup from './TransitionVueGroup'
 
 const newsTypes = {
   hotNews: 1,
-  todayNews: 2,
-};
+  todayNews: 2
+}
 const news = [
   {
     newsType: newsTypes.hotNews,
-    name: "Hot News",
+    name: 'Hot News'
   },
   {
     newsType: newsTypes.todayNews,
-    name: "Today News",
-  },
-];
+    name: 'Today News'
+  }
+]
 
 export default {
-  name: "TransitionVue",
+  name: 'TransitionVue',
   components: {
-    TransitionVueGroup,
+    TransitionVueGroup
   },
-  data() {
+  data () {
     return {
       selectedNewsType: newsTypes.hotNews,
       newsTypes,
-      news,
-    };
+      news
+    }
   },
   methods: {
-    onSelectNewsType(newsType) {
-      this.selectedNewsType = newsType;
-    },
-  },
-};
+    onSelectNewsType (newsType) {
+      this.selectedNewsType = newsType
+    }
+  }
+}
 </script>
 
 <style lang="scss">

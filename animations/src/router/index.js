@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import  { routerHelper } from '@/utils'
+import { routerHelper } from '@/utils'
 
 // import Home from '@/views/Home'
 import MainLayout from '@/views/MainLayout'
@@ -10,7 +10,6 @@ import News from '@/views/News/Index.vue'
 import NewsSingle from '@/views/News/NewsSingle'
 import Matches from '@/views/Matches/Index.vue'
 import Motions from '@/views/Motions/Index.vue'
-
 
 Vue.use(VueRouter)
 

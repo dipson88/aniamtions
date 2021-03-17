@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import  { data, routerHelper } from '@/utils'
+import { data, routerHelper } from '@/utils'
 import NewsList from './NewsList'
 
 export default {
@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     onSelectNews (id) {
-      this.$router.push({ name: routerHelper.names.NewsSingle , params: { newsId: id } })
+      this.$router.push({ name: routerHelper.names.NewsSingle, params: { newsId: id } })
     }
   }
 }
@@ -41,6 +41,6 @@ export default {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+
 }
 </style>

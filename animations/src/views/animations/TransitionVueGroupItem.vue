@@ -26,22 +26,22 @@
 
 <script>
 export default {
-  name: "TransitionVueGroupItem",
+  name: 'TransitionVueGroupItem',
   props: {
     status: {
       type: String,
-      default: "",
+      default: ''
     },
     description: {
       type: String,
-      default: "",
+      default: ''
     },
     mainInfo: {
       type: Object,
-      default: () => {},
-    },
-  },
-};
+      default: () => {}
+    }
+  }
+}
 </script>
 
 <style lang="scss">

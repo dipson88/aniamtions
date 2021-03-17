@@ -59,18 +59,18 @@ export default {
 
 .animation-4 {
   position: absolute;
-  animation: scale 4s infinite linear; 
+  animation: scale 4s infinite linear;
 
   &-wrapper {
     position: relative;
-    animation: spin 5s infinite linear; 
+    animation: spin 5s infinite linear;
   }
 }
 
-@keyframes spin { 
-  100% { 
+@keyframes spin {
+  100% {
     transform: rotate(180deg);
-  } 
+  }
 }
 
 @keyframes scale {
