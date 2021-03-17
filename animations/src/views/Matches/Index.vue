@@ -89,7 +89,7 @@ export default {
     cursor: pointer;
 
     &:hover {
-      color:#999A9D;
+      color: #999a9d;
     }
   }
 

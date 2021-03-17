@@ -41,6 +41,5 @@ export default {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
 }
 </style>

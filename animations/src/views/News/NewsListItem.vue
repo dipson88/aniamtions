@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss">
 .news-list-item {
-  border: 1px solid #DADCE0;
+  border: 1px solid #dadce0;
   border-radius: 4px;
   padding: 15px;
   max-width: 500px;
@@ -64,14 +64,14 @@ export default {
   }
 
   &__info {
-    color: #9B9B9C;
+    color: #9b9b9c;
     font-size: 13px;
     margin: 10px 0 0 0;
   }
 
   &:hover {
     cursor: pointer;
-    background-color: #E4E6EA;
+    background-color: #e4e6ea;
   }
 }
 </style>

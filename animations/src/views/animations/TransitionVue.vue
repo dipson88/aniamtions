@@ -103,8 +103,5 @@ export default {
   &__single {
     max-width: 500px;
   }
-
-  &__header {
-  }
 }
 </style>

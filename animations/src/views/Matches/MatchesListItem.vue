@@ -105,7 +105,7 @@ export default {
   }
 
   &:hover {
-    background-color: #DADCE0;
+    background-color: #dadce0;
   }
 
   @keyframes indicator {
@@ -126,7 +126,6 @@ export default {
     margin-left: 5px;
     border-radius: 50%;
     align-self: center;
-
     animation-name: indicator;
     animation-iteration-count: infinite;
     animation-duration: 2s;

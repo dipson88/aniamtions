@@ -91,7 +91,7 @@ export default {
   100% {
     transform: translateX(0);
   }
-};
+}
 
 @keyframes animation-2 {
   0% {
@@ -105,7 +105,7 @@ export default {
   100% {
     transform: scale(1);
   }
-};
+}
 
 @keyframes animation-3 {
   0% {
@@ -122,5 +122,5 @@ export default {
     transform: translateY(0);
     background-color: red;
   }
-};
+}
 </style>
